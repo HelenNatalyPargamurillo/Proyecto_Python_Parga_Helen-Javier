@@ -45,12 +45,7 @@ while cond == True:
         quehago1=int(input("ingresa"))
         
         if (quehago1== 1):
-            nombre = str(input("nombre camper"))
-            apellido=str(input("iapellidos camper"))
-            direccion=str(input("direcccion"))
-            acudiente=input("acudiente")
-            telefono =input("telefono")
-            estato=input("estato")
-        usu
+           quehago1=int(input("seleccione un numero:\n 1. Nombre \n 2. Apellido \n 3. Direccion \n 4. Acudiente \n 5. Telefono \n 6. Estado"))
+        
         
         
