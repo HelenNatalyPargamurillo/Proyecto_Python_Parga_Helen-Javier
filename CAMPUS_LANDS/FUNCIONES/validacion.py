@@ -15,7 +15,7 @@ def eleccion():
 
 def op_cord():
     roles=True
-    while roles :
+    while roles == True:
         try:
             cordinacion = int (input("digite una opcion correcta"))
             while not(1<=cordinacion <= 10):

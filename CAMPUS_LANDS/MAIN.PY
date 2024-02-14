@@ -1,5 +1,6 @@
 import FUNCIONES.validacion as valida
 import FUNCIONES.titulos_op as titulo
+import FUNCIONES.campers as informaciones
 
 programa={
     "campers":{}
@@ -22,6 +23,7 @@ def inicio():
         op_cord=valida.op_cord()
         
         if op_cord == 1:
+            print(campers)    
             pass
 
         elif op_cord == 2:
@@ -54,3 +56,4 @@ def inicio():
         else :
             inicio()
 inicio()
+
