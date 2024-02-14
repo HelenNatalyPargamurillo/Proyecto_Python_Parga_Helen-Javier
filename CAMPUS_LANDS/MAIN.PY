@@ -2,9 +2,12 @@ import FUNCIONES.validacion as valida
 import FUNCIONES.titulos_op as titulo
 import FUNCIONES.campers as informaciones
 
+import os
+
 programa={
     "campers":{}
 }
+
 campers={
     "nombre":"",
     "apellido":"",
@@ -14,20 +17,25 @@ campers={
     "estado":""
 
 }
+
 def inicio():
     titulo.rol()
     op_rol=valida.eleccion()
-
+    os.system("clear")
     if op_rol== 1 :
         titulo.men_c()
         op_cord=valida.op_cord()
         
         if op_cord == 1:
-            print(campers)    
-            pass
+
+            informaciones.informacion()  
+        
 
         elif op_cord == 2:
-            pass
+            
+            informaciones.notas()
+            inicio()
+
         
         elif op_cord == 3:
             pass
@@ -55,5 +63,7 @@ def inicio():
 
         else :
             inicio()
-inicio()
+
+if __name__ =="__main__":
+    inicio()
 

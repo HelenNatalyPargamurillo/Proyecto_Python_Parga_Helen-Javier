@@ -1,7 +1,55 @@
 {
-    "campers":{
-        "campers_ingreso":{
-            
+    "campers": {
+        "1": {
+            "N de identificacion": 12,
+            "Nombres": "gg1",
+            "Apellido": "1",
+            "Acudiente": "1",
+            "celular": 1,
+            "estado": "aprobado"
+        },
+        "2": {
+            "N de identificacion": 2,
+            "Nombres": "2",
+            "Apellido": "2",
+            "Acudiente": "2",
+            "celular": 2,
+            "estado": "2"
+        },
+        "6": {
+            "N de identificacion": 6,
+            "Nombres": "412",
+            "Apellido": "45",
+            "Acudiente": "45",
+            "celular": 45,
+            "estado": "aprobado"
+        },
+        "12": {
+            "N de identificacion": 12,
+            "Nombres": "12",
+            "Apellido": "12",
+            "Acudiente": "12",
+            "celular": 12,
+            "estado": 12,
+            "nota": ""
+        },
+        "1425654": {
+            "N de identificacion": 1425654,
+            "Nombres": "gjhgjh",
+            "Apellido": "hghh",
+            "Acudiente": "hfu",
+            "celular": "inscrito",
+            "estado": "inscrito",
+            "nota": "inscrito"
+        },
+        "12545": {
+            "N de identificacion": 12545,
+            "Nombres": "hrhrh",
+            "Apellido": "hrhrh",
+            "Acudiente": "hrhrh",
+            "celular": null,
+            "estado": "inscrito",
+            "nota": ""
         }
     }
 }
